@@ -10,8 +10,9 @@ public class HomePage{
     @FindBy(xpath = "//h3[contains(text(),'Notification/Circular From Head Office')]")
     private WebElement tv_notification;
 
-    @FindBy(xpath = "//span[text()='Farmer']")
+    @FindBy(xpath = "//span[text()='Farmerr']")
     private WebElement tv_farmer;
+
     public HomePage(WebDriver driver) {
         PageFactory.initElements(driver , this);
     }

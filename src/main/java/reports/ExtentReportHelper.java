@@ -1,12 +1,10 @@
 package reports;
 
-import base.BaseTest;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.aventstack.extentreports.reporter.configuration.ViewName;
 import org.testng.IReporter;
-import org.testng.annotations.Listeners;
 
 import java.awt.*;
 import java.io.File;
